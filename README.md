@@ -44,6 +44,8 @@ fortune /path/to/jackhandy | cowsay -$opt
 echo
 ```
 
+Replace `/path/to/jackhandy` with the actual path, e.g. `~/jackhandy/jackhandy`. The shell binary's path may also need adjusting - you can check with `which zsh` or check your shell with `grep $HOME /etc/passwd`.
+
 Save it to whatever file name you'd like. It doesn't need an extension; nor is it mandatory to `chmod` it as an executable. 
 
 Remember that `oh-my-zsh` executes the files in this directory in canonical order. If you print other stuff to the terminal during startup and want the cow to appear immediately above the command prompt, consider prepending the file name to force it to run last, e.g. `z-deepthoughts`.
