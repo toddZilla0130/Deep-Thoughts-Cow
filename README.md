@@ -29,7 +29,9 @@ Follow the directions above for the appropriate distro you have installed.
 
 ### `zsh+oh-my-zsh`
 This has been tested with MacOS, Ubuntu, CentOS (not really, at least not yet), and WSL.
+
 `cd` into `~/.zshrc/custom`
+
 Open your favorite editor and paste these lines:
 ```shell
 #! /usr/bin/zsh
