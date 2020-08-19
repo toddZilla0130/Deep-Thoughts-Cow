@@ -23,6 +23,13 @@ Follow the directions above for the appropriate distro you have installed.
 (TODO)
 
 ## Clone the repo
+```shell
+cd ~
+mkdir jackhandy
+cd jackhandy
+git clone...
+```
+
 (TODO)
 
 ## Configure (by **shell**)
@@ -30,30 +37,23 @@ Follow the directions above for the appropriate distro you have installed.
 ### `zsh+oh-my-zsh`
 This has been tested with MacOS, Ubuntu, CentOS (not really, at least not yet), and WSL.
 
-`cd` into `~/.zshrc/custom`
+`cd` into `~/.oh-my-zsh/custom`
 
-Open your favorite editor and paste these lines:
+`oh-my-zsh` runs each of the files in this subdir when you open a new terminal window. To include the `deepthoughts` script, type this at the command prompt:
+
 ```shell
-#! /usr/bin/zsh
-
-echo
-opts=(b d g p s t w y) # cow face option
-opt=${opts[$RANDOM%${#opts[@]}+1]}    # choose a random one. NOTE: The array is 1-based.
-echo "Your Deep Thought for this session:"
-fortune /path/to/jackhandy | cowsay -$opt
-echo
+ln -s ~/jackhandy/deepthoughts deepthoughts.zsh
 ```
+Replace `jackhandy` in the filepath with ...
 
-Replace `/path/to/jackhandy` with the actual path, e.g. `~/jackhandy/jackhandy`. The shell binary's path may also need adjusting - you can check with `which zsh` or check your shell with `grep $HOME /etc/passwd`.
+You do not have to `chmod` the script to be executable; you _do_, however, need to include the `.zsh` extension on the alias.
 
-Save it to whatever file name you'd like. It doesn't need an extension; nor is it mandatory to `chmod` it as an executable. 
-
-Remember that `oh-my-zsh` executes the files in this directory in canonical order. If you print other stuff to the terminal during startup and want the cow to appear immediately above the command prompt, consider prepending the file name to force it to run last, e.g. `z-deepthoughts`.
+Remember that `oh-my-zsh` executes the files in this directory in canonical order. If you print other stuff to the terminal during startup and want the cow to appear immediately above the command prompt, consider prepending the file name to force it to run last, e.g. `z-deepthoughts.zsh`.
 
 For (the unbeatable combo of) `zsh` and `oh-my-zsh` that's it! The next time you open a terminal window (or `source .zshrc`) you should see the Deep Thought Cow.
 
 ### `zsh` (without `oh-my-zsh`) and `bash`
-(TODO: same-ish as above but different)
+(TODO: same-ish as above but different.)
 
 ```
 Your Deep Thought for this session:
