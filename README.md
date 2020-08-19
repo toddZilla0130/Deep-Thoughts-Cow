@@ -23,14 +23,14 @@ Follow the directions above for the appropriate distro you have installed.
 (TODO)
 
 ### Clone the repo
+
 ```shell
 cd ~
 mkdir jackhandy
 cd jackhandy
-git clone...
+git@github.com:toddZilla0130/Deep-Thoughts-Cow.git
 ```
-
-(TODO)
+You can call the directory anything you'd like - I call it **jackhandy** as he is the author of these gems. 
 
 ### Configure (by **shell**)
 
@@ -44,7 +44,7 @@ This has been tested with MacOS, Ubuntu, CentOS (not really, at least not yet), 
 ```shell
 ln -s ~/jackhandy/deepthoughts deepthoughts.zsh
 ```
-Replace `jackhandy` in the filepath with ...
+If you opted for a different directory please make the appropriate substitution above.
 
 You do not have to `chmod` the script to be executable; you _do_, however, need to include the `.zsh` extension on the alias.
 
