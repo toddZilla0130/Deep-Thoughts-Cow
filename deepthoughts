@@ -1,0 +1,9 @@
+#! /usr/bin/zsh
+
+echo
+opts=(b d g p s t w y) # cow face option
+opt=${opts[$RANDOM%${#opts[@]}+1]}    # choose a random one. NOTE: The array is 1-based.
+echo "Your Deep Thought for this session:"
+fortune jackhandy | cowsay -$opt
+echo
+
