@@ -1,28 +1,28 @@
-## Introduction
+### Introduction
 blah blah blah "stuff."
 
-## Prereqs
-### Download and install `fortune` and `cowsay` for your platform:
-#### Ubuntu/Debian
+### Prereqs
+#### Download and install `fortune` and `cowsay` for your platform:
+##### Ubuntu/Debian
 ```shell
 sudo apt update && sudo apt install cowsay fortune -y
 ```
-#### CentOS/RHEL/SUSE
+##### CentOS/RHEL/SUSE
 ```shell
-sudo yum update && sudo yum install cowsay fortune -y ## need to confirm this!
+sudo yum update && sudo yum install cowsay fortune
 ```
-#### MacOS
+##### MacOS
 ```shell
 brew update
 brew install fortune cowsay ## need to confirm this!
 ```
-#### WSL (Windows Subsystem for Linux)
+##### WSL (Windows Subsystem for Linux)
 Follow the directions above for the appropriate distro you have installed.
 
-### Confirm successful install
+#### Confirm successful install
 (TODO)
 
-## Clone the repo
+### Clone the repo
 ```shell
 cd ~
 mkdir jackhandy
@@ -32,9 +32,9 @@ git clone...
 
 (TODO)
 
-## Configure (by **shell**)
+### Configure (by **shell**)
 
-### `zsh+oh-my-zsh`
+#### `zsh+oh-my-zsh`
 This has been tested with MacOS, Ubuntu, CentOS (not really, at least not yet), and WSL.
 
 `cd` into `~/.oh-my-zsh/custom`
@@ -52,7 +52,7 @@ Remember that `oh-my-zsh` executes the files in this directory in canonical orde
 
 For (the unbeatable combo of) `zsh` and `oh-my-zsh` that's it! The next time you open a terminal window (or `source .zshrc`) you should see the Deep Thought Cow.
 
-### `zsh` (without `oh-my-zsh`) and `bash`
+#### `zsh` (without `oh-my-zsh`) and `bash`
 (TODO: same-ish as above but different.)
 
 ```
