@@ -20,6 +20,7 @@ brew install fortune cowsay ## need to confirm this!
 Follow the directions above for the appropriate distro you have installed.
 
 ##### Other Linux distros
+(May want to include instructions for Alpine? It's mostly a headless server implementation though...)
 Man, you're on your own here. Please let me know the details and I'll update.
 
 #### Confirm successful install
@@ -28,12 +29,8 @@ Man, you're on your own here. Please let me know the details and I'll update.
 ### Clone the repo
 
 ```shell
-cd ~
-mkdir jackhandy
-cd jackhandy
-git@github.com:toddZilla0130/Deep-Thoughts-Cow.git
+git clone https://github.com/toddZilla0130/Deep-Thoughts-Cow.git
 ```
-You can call the directory anything you'd like - I call it **jackhandy** as he is the author of these gems. 
 
 ### Configure (by **shell**)
 
@@ -45,9 +42,8 @@ This has been tested with MacOS, Ubuntu, CentOS (not really, at least not yet), 
 **oh-my-zsh** runs each of the files in this subdir when you open a new terminal window. To include the `deepthoughts` script, type this at the command prompt:
 
 ```shell
-ln -s ~/jackhandy/deepthoughts deepthoughts.zsh
+ln -s ~/Deep-Thoughts-Cow/deepthoughts deepthoughts.zsh
 ```
-If you opted for a different directory please make the appropriate substitution above.
 
 You do not have to `chmod` the script to be executable; you _do_, however, need to include the `.zsh` extension on the alias.
 
