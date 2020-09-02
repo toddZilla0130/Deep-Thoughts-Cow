@@ -86,7 +86,7 @@ If - like me - you're a bit anal retentive and like your Deep Thoughts sorted, y
 grep -v "^%" jackhandy | sort | sed -e 's/$/\n%/g' > jackhandy
 ```
 
-You might want to back up the file beforehand, especially in the event the GNU-specific `\n` in the `sed` substition doesn't work on your distro.
+You might want to back up the file beforehand, especially in the event the GNU-specific `\n` in the `sed` substitution doesn't work on your distro.
 
 ```
 Your Deep Thought for this session:
