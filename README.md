@@ -61,7 +61,7 @@ For (the unbeatable combo of) `zsh` and `oh-my-zsh` that's it! The next time you
 As I wrote above, you're on your own but if you're using a different shell you probably know a lot more about Linux than I do. I'll be happy to update here if you want to provide me with details.
 
 ## About the jackhandy file
-It's a set of Deep Thoughts I culled/scraped from collections around the internet which _I_ think are funny. You may have a different opinion; if so I highly encourage you to edit the file to make it your own. Google "Deep Thoughts" or "Jack Handy" to start mining.
+It's a set of Deep Thoughts culled/scraped from collections around the internet which _I_ think are funny. You may have a different opinion; if so I highly encourage you to edit the file to make it your own. Google "Deep Thoughts" or "Jack Handy" to start mining.
 
 The file layout is simple:
 
