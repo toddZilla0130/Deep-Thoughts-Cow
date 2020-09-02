@@ -52,10 +52,10 @@ Remember that `oh-my-zsh` executes the files in this directory in canonical orde
 For (the unbeatable combo of) `zsh` and `oh-my-zsh` that's it! The next time you open a terminal window (or `source .zshrc`) you should see the Deep Thought Cow.
 
 #### `zsh` (without `oh-my-zsh`) 
-(Make the script file executable, add running it to .zshrc)
+(TODO: Make the script file executable, add running it to .zshrc)
 
 #### `bash`
-(Same as above, but need to change the `#!` line; add to .bashrc.)
+(TODO: Same as above, but need to change the `#!` line; add to .bashrc.)
 
 #### Other shells
 As I wrote above, you're on your own but if you're using a different shell you probably know a lot more about Linux than I do. I'll be happy to update here if you want to provide me with details.
